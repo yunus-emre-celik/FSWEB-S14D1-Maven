@@ -15,25 +15,25 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * Circle sınıfının ```getArea``` isimli bir metodu olmalı ve radius * radius * Math.PI değerini dönmeli.
 
 * com.workintech.cylinder paketi altında Cylinder isminde bir sınıf yazınız. Circle sınıfı ile arasında kalıtım ilişkisi kurmalısınız.
-* Cylinder sınıfının bir tane sınıf değişkeni olmalı ve adı ```height``` olmalı. height değişkeninin tipi ne olmalı ?
-* Cylinder sınıfının bir tane constructor methodu olmalı ve 2 parametre almalı. height parametresi 0'dan küçükse, height 0'a eşitlenmeli.
-* Cylinder sınıfının ```getHeight``` isimli bir metodu olmalı ve height değerini return etmeli.
-* Cylinder sınıfının ```getVolume``` isimli bir metodu olmalı hacmi hesaplamalı. Hacmi hesaplamak için ```getArea``` ile height değişkenini çarpmalı.
+* Cylinder sınıfının bir tane sınıf değişkeni olmalı ve adı ```length``` olmalı. length değişkeninin tipi ne olmalı ?
+* Cylinder sınıfının bir tane constructor methodu olmalı ve 2 parametre almalı. length parametresi 0'dan küçükse, length 0'a eşitlenmeli.
+* Cylinder sınıfının ```getHeight``` isimli bir metodu olmalı ve length değerini return etmeli.
+* Cylinder sınıfının ```getVolume``` isimli bir metodu olmalı hacmi hesaplamalı. Hacmi hesaplamak için ```getArea``` ile length değişkenini çarpmalı.
 
 ### Havuzun Alanını Hesaplama
 
   Workintech yüzme ekibinin sana ihtiyacı var.  
 
 * com.workintech.pool paketi altında Rectangle isimli bir sınıf yazınız. Sınıf'ın iki tane sınıf değişkeni olmalı. ```width``` ve ```length``` İki değişkeninde tipini ne seçmeliyiz?
-* width değişkeni de height değişkenide 0 dan küçük set edilirse direkt olarak 0'a set edilmeliler.
+* width değişkeni de length değişkenide 0 dan küçük set edilirse direkt olarak 0'a set edilmeliler.
 * Rectangle sınıfının 3 methodu olmalı ```getWidth``` width alanını dönmeli.
 * ```getLength``` methodu length fieldini dönmeli
 * ```getArea``` methodu (width*length) i dönmeli.
 
 * com.workintech.pool paketi altında Cuboid isimli bir sınıf daha yazmalısınız. Cuboid sınıfı ile Rectangle sınıfı arasında bir ilişki olmalı.
-* Cuboid sınıfının tek bir sınıf değişkeni var ve adı height. Tipini belirlemek senin görevin. height 0'dan küçükse direkt 0 atanmalı.
-* Cuboid sınıfının tek bir constructor methodu olmalı ve 3 parametre almalı. width, length ve height.
-* Cuboid sınıfının iki tane methodu olmalı. ```getHeight``` height değerini dönmeli. ```getVolume``` volume değerinin hesaplamalı ve dönmeli. Volume alan ile yükseklik değerinin çarpımıdır.
+* Cuboid sınıfının tek bir sınıf değişkeni var ve adı length. Tipini belirlemek senin görevin. length 0'dan küçükse direkt 0 atanmalı.
+* Cuboid sınıfının tek bir constructor methodu olmalı ve 3 parametre almalı. width, length ve length.
+* Cuboid sınıfının iki tane methodu olmalı. ```getHeight``` length değerini dönmeli. ```getVolume``` volume değerinin hesaplamalı ve dönmeli. Volume alan ile yükseklik değerinin çarpımıdır.
 
 ### Developer Company
 * com.workintech.developers paketi altında Employee isimli bir sınıf oluşturunuz. İçerisinde ```id, name, salary``` sınıf değişkenleri olmalı.
@@ -67,7 +67,7 @@ Cylinder cylinder = new Cylinder(5.55, 7.25);
 
 System.out.println("cylinder.radius= " + cylinder.getRadius());
 
-System.out.println("cylinder.height= " + cylinder.getHeight());
+System.out.println("cylinder.length= " + cylinder.getHeight());
 
 System.out.println("cylinder.area= " + cylinder.getArea());
 
@@ -82,7 +82,7 @@ circle.area= 44.178646691106465
 
 cylinder.radius= 5.55
 
-cylinder.height= 7.25
+cylinder.length= 7.25
 
 cylinder.area= 96.76890771219959
 
@@ -107,7 +107,7 @@ System.out.println("cuboid.length= " + cuboid.getLength());
 
 System.out.println("cuboid.area= " + cuboid.getArea());
 
-System.out.println("cuboid.height= " + cuboid.getHeight());
+System.out.println("cuboid.length= " + cuboid.getHeight());
 
 System.out.println("cuboid.volume= " + cuboid.getVolume());
 
@@ -125,7 +125,7 @@ cuboid.length= 10.0
 
 cuboid.area= 50.0
 
-cuboid.height= 5.0
+cuboid.length= 5.0
 
 cuboid.volume= 250.0
 
